@@ -1,0 +1,396 @@
+
+
+Graphic of Last of Us
+
+The graphics of The Last of Us are famous for being very realistic and cinematic. The game shows a post-apocalyptic world with destroyed cities, forests, and abandoned buildings. 🌿🏚️ The lighting, character faces, and environments are designed to look almost like a movie.
+
+Here are some examples of the game’s graphics:
+
+
+https://live.staticflickr.com/65535/52323937653_9b3773e8a3_h.jpg
+
+https://s.yimg.com/uu/api/res/1.2/75CjcJarFOMCTwCkY_X6zw--~B/aD0yMTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https%3A//media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-08/dcb38c70-28a6-11ed-a77f-d92be29b5fc1.cf.jpg
+
+https://images.squarespace-cdn.com/content/v1/56d5457d8259b57a20245e80/e8f2e53d-c10c-45ba-969a-a8b8f76e2cb2/The%2BLast%2Bof%2BUs%E2%84%A2%2BPart%2BI_20220824210606.jpg
+
+https://s3.amazonaws.com/static.rogerebert.com/uploads/blog_post/primary_image/video-games/the-last-of-us-part-1-rebuilds-landmark-game-from-the-ground-up/TLOUPTI_BROLL_STILLS_19.jpg
+Why the graphics look so good 🎮
+Realistic environments – broken buildings, overgrown nature, abandoned cars.
+
+Detailed characters – facial expressions and animations look very lifelike.
+
+Lighting & shadows – sunlight, fog, and dark areas make the world feel real.
+
+Cinematic style – scenes feel like a movie while playing.
+
+The game was developed by Naughty Dog, and it’s known for its high-quality graphics and storytelling. Many players consider it one of the best-looking survival games.
+
+✅ If you want, I can also show:
+
+4K graphics of The Last of Us Part I
+
+Game map graphics
+
+How to make graphics like The Last of Us for your own game.
+
+
+How to game zoom it is very long fix a zoom 
+
+If your game screen is too zoomed in or too zoomed out, you can fix the zoom in a few common ways depending on how you are making the game. 🎮
+
+1. Fix Zoom Using Camera Size
+Most games control zoom with the camera.
+
+Open your Camera settings in the game engine.
+
+Change Field of View (FOV) or Camera Size.
+
+Bigger value → more zoomed out
+
+Smaller value → more zoomed in
+
+Example idea:
+
+FOV = 60 → normal zoom
+
+FOV = 80–90 → more zoom out
+
+2. Fix Zoom for Mobile Games
+If you are making a mobile game:
+
+Set a fixed camera position
+
+Lock the zoom so players cannot change it
+
+Example logic:
+
+camera.zoom = 1.0
+camera.lock = true
+3. Fix Zoom With Screen Resolution
+Sometimes the zoom problem happens because of wrong resolution.
+
+Try:
+
+Set game resolution like 1920×1080 (PC)
+
+Or 1280×720 (mobile)
+
+4. If You Are Using a Game Maker App on Phone
+Many mobile game maker apps have:
+
+Camera Zoom
+
+Viewport scale
+
+Set:
+
+Zoom = 1
+
+Viewport = Fit Screen
+
+✅ If you want, tell me:
+
+Which game maker app you use (like Unity, Godot, GDevelop, etc.)
+
+Or if it is for a Last of Us style game
+
+Then I can give the exact steps to fix the zoom. 📱🎮
+
+
+How to game zoom it is very long fix a zoom in last of us 
+
+If the camera in The Last of Us feels too zoomed out or too far, there are a few ways to adjust or control the zoom depending on what you mean. 🎮
+
+1. While Playing (Aiming Zoom)
+Press L2 / Left Trigger to aim your weapon.
+
+The camera will zoom in automatically when aiming. 🔍
+
+2. Change Camera Distance in Settings
+In The Last of Us Part I or The Last of Us Part II you can adjust camera settings:
+
+Open Options / Settings
+
+Go to Camera
+
+Change:
+
+Camera Distance
+
+Field of View (FOV)
+
+Suggested values:
+
+Lower FOV (70–80) → More zoomed in
+
+Higher FOV (90+) → More zoomed out
+
+3. Accessibility Camera Zoom
+The game also has Accessibility Zoom:
+
+Go to Options
+
+Open Accessibility
+
+Turn on Zoom
+
+Use the touchpad or button combo to zoom in.
+
+4. If You Mean When Making a Game Like The Last of Us
+If you are creating your own Last-of-Us style game, you fix zoom by changing the camera FOV or camera position in the game engine.
+
+✅ If you want, I can also show:
+
+Best camera settings for The Last of Us Part I
+
+How to make a Last-of-Us style camera system in a game engine. 🎮
+
+
+Uploaded image
+How to game zoom script for
+
+It looks like you are editing the game “Fungal Frontier” on Astrocade. Your map looks too far (zoomed out), so you need a camera zoom script.
+
+Simple Camera Zoom Script
+Add a script that changes the camera zoom value.
+
+// Camera zoom
+camera.zoom = 2;
+Zoom values:
+
+camera.zoom = 1 → normal
+
+camera.zoom = 2 → closer (good zoom)
+
+camera.zoom = 3 → very close
+
+Smooth Zoom Example
+If you want smoother zoom:
+
+camera.zoom += 0.01;
+Fixed Zoom (Recommended)
+For a survival game style like The Last of Us, use:
+
+camera.follow(player);
+camera.zoom = 1.8;
+This will:
+
+Follow the player
+
+Keep the camera closer to the character
+
+✅ Best zoom for your game:
+camera.zoom = 1.6 or 1.8
+
+If you want, I can also show:
+
+Full camera follow script
+
+Joystick movement script
+
+Gun shooting script for your game. 🎮
+
+
+Uploaded image
+Graphic is not working
+
+From your screenshot, the game “Fungal Frontier” in Astrocade is running, but the graphics look too stretched / empty. The problem is usually camera scale or map size, not the sprite itself. 🎮
+
+Fix 1: Change Camera Zoom
+Open your camera or scene script and set a fixed zoom.
+
+Example:
+
+camera.zoom = 1.6
+camera.follow(player)
+Try these values:
+
+1.2 → little zoom
+
+1.6 → good zoom
+
+2.0 → close zoom
+
+Fix 2: Fix Map Scale
+Sometimes the map is too large, so the player looks very small.
+
+Check:
+
+Tile size
+
+Map scale
+
+Recommended:
+
+tileSize = 64
+Fix 3: Center Camera on Player
+If the camera is not centered, graphics look wrong.
+
+camera.x = player.x
+camera.y = player.y
+Fix 4: Use Follow Camera
+Best setup for survival games (like The Last of Us style):
+
+camera.follow(player)
+camera.zoom = 1.8
+✅ From your screenshot I can see:
+
+Map is very large
+
+Player sprite is too small
+
+Best quick fix:
+
+camera.follow(player)
+camera.zoom = 2
+👍 If you want, I can also show you:
+
+Correct Astrocade camera script
+
+Player movement script
+
+Shoot gun system for your game.
+
+
+Human of last of us walk scrypt
+
+If you want a human walking script like in The Last of Us, you need a player movement script that moves the character in 4 directions and plays a walk animation. 🚶‍♂️🎮
+
+Simple Human Walk Script
+Example basic movement:
+
+speed = 3
+
+if (input.left) {
+    player.x -= speed
+}
+
+if (input.right) {
+    player.x += speed
+}
+
+if (input.up) {
+    player.y -= speed
+}
+
+if (input.down) {
+    player.y += speed
+}
+Walk Animation Script
+To make the character walk animation play:
+
+if (player.moving) {
+    player.animation = "walk"
+} else {
+    player.animation = "idle"
+}
+Sprint (Run) Script
+Like survival games:
+
+if (input.sprint) {
+    speed = 6
+} else {
+    speed = 3
+}
+This will give:
+
+Normal walking
+
+Running (sprint)
+
+Idle animation
+
+✅ This creates a basic human movement system similar to survival games like The Last of Us Part I.
+
+If you want, I can also give you:
+
+Joystick movement script (for mobile) 📱
+
+Gun shooting script 🔫
+
+Enemy zombie AI script 🧟‍♂️ for a Last-of-Us style game.
+
+
+Create a game of last of us survival game code
+
+You cannot copy the exact game The Last of Us because it belongs to Naughty Dog, but you can make a similar survival game with basic code. 🎮
+
+Below is a simple survival game example (player movement + health + shooting + enemies).
+
+1. Player Movement Code
+This lets the human character walk.
+
+let speed = 3;
+
+if (input.left) {
+  player.x -= speed;
+}
+
+if (input.right) {
+  player.x += speed;
+}
+
+if (input.up) {
+  player.y -= speed;
+}
+
+if (input.down) {
+  player.y += speed;
+}
+2. Sprint System
+Player runs faster.
+
+if (input.sprint) {
+  speed = 6;
+} else {
+  speed = 3;
+}
+3. Shooting System
+Player shoots enemies.
+
+if (input.shoot) {
+  spawn("bullet", player.x, player.y);
+}
+Bullet movement:
+
+bullet.x += bullet.speed;
+4. Enemy (Zombie) AI
+Enemies follow the player.
+
+let dx = player.x - enemy.x;
+let dy = player.y - enemy.y;
+
+enemy.x += dx * 0.02;
+enemy.y += dy * 0.02;
+5. Health System
+Player loses health when enemy touches.
+
+if (player.collide(enemy)) {
+  player.health -= 10;
+}
+6. Camera Follow
+Camera follows the player.
+
+camera.follow(player);
+camera.zoom = 1.8;
+✅ This gives you a basic survival game with:
+
+Walking 🚶
+
+Sprinting ⚡
+
+Shooting 🔫
+
+Enemies 🧟
+
+Health system ❤️
+
+If you want, I can also make a full mobile survival game template (300–500 lines code) like The Last of Us Part I style with:
+
+Inventory 🎒
+
+Day/Night 🌙
+
+Loot system 📦
+
+Base building 🏠.
